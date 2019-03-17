@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18776" started-at="2019-03-13T23:13:49Z" finished-at="2019-03-13T23:14:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18776" started-at="2019-03-13T23:13:49Z" finished-at="2019-03-13T23:14:07Z">
+      <class name="myFirstFramework.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:myFirstFramework.HomePage@130d63be]" name="initialize" is-config="true" duration-ms="3488" started-at="2019-03-13T23:13:49Z" finished-at="2019-03-13T23:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="baseBaseNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:myFirstFramework.HomePage@130d63be]" name="baseBaseNavigation" duration-ms="10312" started-at="2019-03-13T23:13:52Z" data-provider="getData" finished-at="2019-03-13T23:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBaseNavigation -->
+        <test-method status="PASS" signature="baseBaseNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:myFirstFramework.HomePage@130d63be]" name="baseBaseNavigation" duration-ms="4736" started-at="2019-03-13T23:14:02Z" data-provider="getData" finished-at="2019-03-13T23:14:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[norestricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBaseNavigation -->
+        <test-method status="PASS" signature="teatdown()[pri:0, instance:myFirstFramework.HomePage@130d63be]" name="teatdown" is-config="true" duration-ms="211" started-at="2019-03-13T23:14:07Z" finished-at="2019-03-13T23:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatdown -->
+      </class> <!-- myFirstFramework.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

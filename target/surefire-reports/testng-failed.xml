@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="myFirstFramework.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Validating login(failed)">
+    <classes>
+      <class name="myFirstFramework.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="teatdown"/>
+        </methods>
+      </class> <!-- myFirstFramework.ValidateTitle -->
+      <class name="myFirstFramework.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="teatdown"/>
+          <include name="baseBaseNavigation" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- myFirstFramework.HomePage -->
+      <class name="myFirstFramework.ValidateLogo">
+        <methods>
+          <include name="initialize"/>
+          <include name="teatdown"/>
+        </methods>
+      </class> <!-- myFirstFramework.ValidateLogo -->
+    </classes>
+  </test> <!-- Validating login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

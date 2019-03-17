@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+	<listener class-name="myFirstFramework.listeners"/>
+	<listener class-name="resources.ExtentReporterNG"/>
+	</listeners>
+  <test thread-count="5" name="Validating App">
+    <classes>
+      <class name="myFirstFramework.AppTest"/>
+        </classes>
+  </test>
+      <test thread-count="5" name="Validating logo">
+    <classes>
+      <class name="myFirstFramework.ValidateLogo"/>
+        </classes>
+  </test>
+      <test thread-count="5" name="Validating login">
+    <classes>
+      <class name="myFirstFramework.HomePage"/>
+        </classes>
+  </test>
+      <test thread-count="5" name="validating title">
+    <classes>
+      <class name="myFirstFramework.ValidateTitle"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="myFirstFramework.listeners"/>
+  </listeners>
+  <test thread-count="5" name="Validating logo(failed)">
+    <classes>
+      <class name="myFirstFramework.ValidateLogo">
+        <methods>
+          <include name="initialize"/>
+          <include name="teatdown"/>
+          <include name="baseBaseNavigation"/>
+        </methods>
+      </class> <!-- myFirstFramework.ValidateLogo -->
+    </classes>
+  </test> <!-- Validating logo(failed) -->
+  <test thread-count="5" name="validating title(failed)">
+    <classes>
+      <class name="myFirstFramework.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="teatdown"/>
+          <include name="baseBaseNavigation"/>
+        </methods>
+      </class> <!-- myFirstFramework.ValidateTitle -->
+    </classes>
+  </test> <!-- validating title(failed) -->
+</suite> <!-- Failed suite [Suite] -->

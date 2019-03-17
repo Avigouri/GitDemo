@@ -1,0 +1,7 @@
+23:14:07.689 [main] INFO  resources.base - Login Message displayed successfully
+23:16:06.216 [main] INFO  resources.base - NO Thanks clicked successfully
+23:16:06.288 [main] INFO  resources.base - Logo dispayed as expected
+23:16:16.215 [main] INFO  resources.base - restricted user
+23:16:18.069 [main] INFO  resources.base - Login Message displayed successfully
+23:16:22.439 [main] INFO  resources.base - norestricted user
+23:16:23.717 [main] INFO  resources.base - Login Message displayed successfully
